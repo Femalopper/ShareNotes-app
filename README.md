@@ -35,16 +35,16 @@ Example of ready and fast solution:
 
   ***MAMP SQL installation***
   1\. Click 'Start servers' button
-  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp start.png)
+  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp_start.png)
   2\. Click 'Open WebStart page' button -> TOOLS -> PhpMyAdmin
-  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp start page.png)
-  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp phpmyadmin.png)
+  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp_start_page.png)
+  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp_phpmyadmin.png)
   3\. Click New
   4\. Enter database name: reactjs
   5\. Enter encoding: utf8mb4u_unicode_ci -> create
-  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp create Database.png)
+  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp_create_Database.png)
   6\. Click import: choose reactjs.sql -> Go
-  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp create Database2.png)
+  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp_create_Database2.png)
 
   Database is created
 
