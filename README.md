@@ -11,7 +11,7 @@
 
    sudo npm link
   ```
-
+***
 ### 2\. Install SQL database ###
 
 Example of ready and fast solution: 
@@ -20,7 +20,7 @@ Example of ready and fast solution:
 >  - MAMP: https://www.mamp.info/en/windows/
 >  - Open Server: https://ospanel.io/
 
-
+***
 
   ### ***MAMP SQL installation*** ###
 
@@ -51,7 +51,7 @@ Example of ready and fast solution:
   >![Mamp create database2](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
 
 
-  >**Database is created!**
+  **Database is created!**
 
   **7\.** Open command line:
   ```sh
@@ -59,7 +59,7 @@ Example of ready and fast solution:
 
    code index.js
   ```
-  **8\.** Correct sequelize setting (insert password parametr - 'root'):
+  **8\.** Correct sequelize setting (insert password parametr - ***'root'***):
   ```sh
    const sequelize = new Sequelize('reactjs', 'root', 'root', {
      dialect: 'mysql',
@@ -104,9 +104,8 @@ Example of ready and fast solution:
   >![OS create database2](https://github.com/Femalopper/raw/blob/main/images/OS%20create2.png)
 
 
-  >**Database is created!**
-
-
+  **Database is created!**
+***
 ### 3\. Run server ###
 
   ```sh
@@ -114,7 +113,7 @@ Example of ready and fast solution:
 
    node index.js
   ```
-
+***
 ### 4\. Run app ###
 
   ```sh
@@ -122,6 +121,6 @@ Example of ready and fast solution:
 
    npm start
   ```
-
+***
 ## Description
 ShareNotes is an app for sharing encrypted messages. 
