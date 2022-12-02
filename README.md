@@ -21,61 +21,90 @@ Example of ready and fast solution:
 >  - Open Server: https://ospanel.io/
 
 
-***Open server SQL installation***
-
-  1\. Click 'Run server' button
-
-  2\. Click 'Advanced' button -> PhpMyAdmin
-
-  3\. Enter login: root
-
-  4\. Create Database
-
-  5\. Enter database name: reactjs
-
-  6\. Enter encoding: utf8mb4u_unicode_ci -> create
-
-  7\. Click import: choose reactjs.sql
-
-Написать про настройки php
-
-  Database is created!
-
-
   ***MAMP SQL installation***
 
-  >1\. Click 'Start servers' button
+  **1\.** Click ***Start servers*** button
+
   >>![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start.png)
 
-  >2\. Click 'Open WebStart page' button -> TOOLS -> PhpMyAdmin
-  >>![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start%20page.png)
-  >>![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20phpmyadmin.png)
 
-  >3\. Click New
+  **2\.** Click ***Open WebStart page*** button -> ***TOOLS** -> ***PhpMyAdmin***
 
-  >4\. Enter database name: reactjs
+  >>![Mamp start page](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start%20page.png)
 
-  >5\. Enter encoding: utf8mb4u_unicode_ci -> create
-  >>![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
   
-  >6\. Click import: choose reactjs.sql -> Go
-  >>![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
+  >>![Mamp php admin](https://github.com/Femalopper/raw/blob/main/images/Mamp%20phpmyadmin.png)
 
-  >>Database is created
 
-  >8\. Open command line:
+  **3\.** Click ***New*** to create Database
+
+  **4\.** Enter database name: ***reactjs***
+
+  **5\.** Enter encoding: ***utf8mb4u_unicode_ci*** -> create
+
+  >>![Mamp create database](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
+
+  
+  **6\.** Click ***import***: choose ***reactjs.sql*** -> ***Go***
+
+  >>![Mamp create database2](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
+
+
+  >>**Database is created!**
+
+  8\. Open command line:
   ```sh
    cd backend_project/db
 
    code index.js
   ```
-  >9\. Correct sequelize setting (insert password parametr - 'root'):
+  9\. Correct sequelize setting (insert password parametr - 'root'):
   ```sh
    const sequelize = new Sequelize('reactjs', 'root', 'root', {
      dialect: 'mysql',
      host: 'localhost',
    });
   ```
+
+***Open server SQL installation***
+
+  **1\.** Click ***Run server*** button
+
+  >>![OS run server](https://github.com/Femalopper/raw/blob/main/images/OS%20run%20server.png)
+
+
+  **2\.** Click ***Advanced*** button -> ***PhpMyAdmin***
+
+  >>![OS phpadmin](https://github.com/Femalopper/raw/blob/main/images/OS%20phpmyadmin.png)
+
+
+  ***If PhpMyAdmin is not loaded in the browser, set MySQL-8.0 module:***
+
+  >>![Correct modules](https://github.com/Femalopper/raw/blob/main/images/Correct%20modules.png)
+
+ 
+
+  **3\.** Enter login: ***root***
+
+  >>![OS login enter](https://github.com/Femalopper/raw/blob/main/images/OS%20enter.png)
+
+
+  **4\.** Click create Database
+
+  **5\.** Enter database name: ***reactjs***
+
+  **6\.** Enter encoding: ***utf8mb4u_unicode_ci*** -> create
+
+  >>![OS create database](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
+
+
+  **7\.** Click import: choose ***reactjs.sql***
+
+  >>![OS create database2](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
+
+
+  >>**Database is created!**
+
 
 ### 3\. Run server ###
 

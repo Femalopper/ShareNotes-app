@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('reactjs', 'root', 'root', {
+const sequelize = new Sequelize('reactjs', 'root', '', {
   dialect: 'mysql',
   host: 'localhost',
 });
