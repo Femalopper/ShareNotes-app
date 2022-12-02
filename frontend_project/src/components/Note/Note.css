@@ -1,0 +1,70 @@
+
+.create{
+    margin: 70px auto 0px auto;
+    width: 900px;
+    flex:  1 1 auto;
+}
+
+.create .hide {
+    display: none;
+}
+
+.note-message {
+    background-color: #d4ecdf;
+    color: #00461f;
+    padding: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+.note-text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding:10px;
+    color: #1952c4;
+    background-color: rgb(223, 235, 228);
+    opacity: 0.8;
+    font-style: italic;
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.error-hash {
+    background-color: rgb(250, 206, 206);
+    color: rgb(87, 2, 2);
+    padding: 13px;
+    border-radius: 5px;
+}
+
+@media (min-width: 700px) and (max-width: 1400px) { 
+    .create {
+        width: 70%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 700px) { 
+    .create {
+        width: 50%;
+    }
+    .note-message h4 {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 260px) and (max-width: 480px) { 
+    .create {
+        width: 60%;
+        font-size: 0.8em;
+    }
+    .create button{
+        width: 100%;
+        font-size: 0.9em;
+    }
+    .note-message h4 {
+        font-size: 0.9em;
+    }
+    .error-hash {
+        font-size: 0.9em;
+    }
+}

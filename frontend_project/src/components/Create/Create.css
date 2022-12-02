@@ -1,0 +1,43 @@
+.create{
+    flex: 1 1 auto;
+}
+
+.create form{
+    display: flex;
+    flex-direction: column;   
+}
+
+.create button{
+    float: right;
+    width: 180px;
+    margin: 20px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: #2a6ffa;
+    color: #fff;
+}
+
+
+.create form label{
+    margin-bottom: 5px;
+}
+ 
+.link{
+    margin: 20px 0px 0px 0px;
+    background-color: #d1e6fd;
+    color: #1952c4;
+    word-wrap:break-word;
+}
+
+.copyurl {
+    margin-top: 15px;
+}
+
+@media (min-width: 260px) and (max-width: 480px) { 
+    .link {
+        font-size: 0.9em;
+    }
+    #note {
+        font-size: 0.9em;
+    }
+}
