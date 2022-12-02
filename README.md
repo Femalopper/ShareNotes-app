@@ -3,7 +3,7 @@
 ### 1\. Clone project ###
  
   ```sh
-   git clone
+   git clone git@github.com:Femalopper/react-app-ShareNotes.git
 
    cd react-app-ShareNotes
 
@@ -21,12 +21,19 @@ Example of ready and fast solution:
 >  - Open Server: https://ospanel.io/
 
 ***Open server SQL installation***
+
   1\. Click 'Run server' button
+
   2\. Click 'Advanced' button -> PhpMyAdmin
+
   3\. Enter login: root
+
   4\. Create Database
+
   5\. Enter database name: reactjs
+
   6\. Enter encoding: utf8mb4u_unicode_ci -> create
+
   7\. Click import: choose reactjs.sql
 
 Написать про настройки php
@@ -36,13 +43,18 @@ Example of ready and fast solution:
   ***MAMP SQL installation***
   1\. Click 'Start servers' button
   ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start.png)
+
   2\. Click 'Open WebStart page' button -> TOOLS -> PhpMyAdmin
   ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start%20page.png)
   ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20phpmyadmin.png)
+
   3\. Click New
+
   4\. Enter database name: reactjs
+
   5\. Enter encoding: utf8mb4u_unicode_ci -> create
   ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
+  
   6\. Click import: choose reactjs.sql -> Go
   ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
 
