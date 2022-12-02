@@ -53,21 +53,20 @@ Example of ready and fast solution:
 
   >**Database is created!**
 
-  8\. Open command line:
+  **7\.** Open command line:
   ```sh
    cd backend_project/db
 
    code index.js
   ```
-  9\. Correct sequelize setting (insert password parametr - 'root'):
+  **8\.** Correct sequelize setting (insert password parametr - 'root'):
   ```sh
    const sequelize = new Sequelize('reactjs', 'root', 'root', {
      dialect: 'mysql',
      host: 'localhost',
    });
   ```
-
-
+***
 ### ***Open server SQL installation*** ###
 
   **1\.** Click ***Run server*** button
