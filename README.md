@@ -21,19 +21,20 @@ Example of ready and fast solution:
 >  - Open Server: https://ospanel.io/
 
 
-  ***MAMP SQL installation***
+
+  ### ***MAMP SQL installation*** ###
 
   **1\.** Click ***Start servers*** button
 
-  >>![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start.png)
+  >![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start.png)
 
 
-  **2\.** Click ***Open WebStart page*** button -> ***TOOLS** -> ***PhpMyAdmin***
+  **2\.** Click ***Open WebStart page*** button -> ***TOOLS*** -> ***PhpMyAdmin***
 
-  >>![Mamp start page](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start%20page.png)
+  >![Mamp start page](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start%20page.png)
 
   
-  >>![Mamp php admin](https://github.com/Femalopper/raw/blob/main/images/Mamp%20phpmyadmin.png)
+  >![Mamp php admin](https://github.com/Femalopper/raw/blob/main/images/Mamp%20phpmyadmin.png)
 
 
   **3\.** Click ***New*** to create Database
@@ -42,15 +43,15 @@ Example of ready and fast solution:
 
   **5\.** Enter encoding: ***utf8mb4u_unicode_ci*** -> create
 
-  >>![Mamp create database](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
+  >![Mamp create database](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
 
   
   **6\.** Click ***import***: choose ***reactjs.sql*** -> ***Go***
 
-  >>![Mamp create database2](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
+  >![Mamp create database2](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
 
 
-  >>**Database is created!**
+  >**Database is created!**
 
   8\. Open command line:
   ```sh
@@ -66,27 +67,28 @@ Example of ready and fast solution:
    });
   ```
 
-***Open server SQL installation***
+
+### ***Open server SQL installation*** ###
 
   **1\.** Click ***Run server*** button
 
-  >>![OS run server](https://github.com/Femalopper/raw/blob/main/images/OS%20run%20server.png)
+  >![OS run server](https://github.com/Femalopper/raw/blob/main/images/OS%20run%20server.png)
 
 
   **2\.** Click ***Advanced*** button -> ***PhpMyAdmin***
 
-  >>![OS phpadmin](https://github.com/Femalopper/raw/blob/main/images/OS%20phpmyadmin.png)
+  >![OS phpadmin](https://github.com/Femalopper/raw/blob/main/images/OS%20phpmyadmin.png)
 
 
   ***If PhpMyAdmin is not loaded in the browser, set MySQL-8.0 module:***
 
-  >>![Correct modules](https://github.com/Femalopper/raw/blob/main/images/Correct%20modules.png)
+  >![Correct modules](https://github.com/Femalopper/raw/blob/main/images/Correct%20modules.png)
 
  
 
   **3\.** Enter login: ***root***
 
-  >>![OS login enter](https://github.com/Femalopper/raw/blob/main/images/OS%20enter.png)
+  >![OS login enter](https://github.com/Femalopper/raw/blob/main/images/OS%20enter.png)
 
 
   **4\.** Click create Database
@@ -95,15 +97,15 @@ Example of ready and fast solution:
 
   **6\.** Enter encoding: ***utf8mb4u_unicode_ci*** -> create
 
-  >>![OS create database](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
+  >![OS create database](https://github.com/Femalopper/raw/blob/main/images/OS%20create.png)
 
 
   **7\.** Click import: choose ***reactjs.sql***
 
-  >>![OS create database2](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
+  >![OS create database2](https://github.com/Femalopper/raw/blob/main/images/OS%20create2.png)
 
 
-  >>**Database is created!**
+  >**Database is created!**
 
 
 ### 3\. Run server ###
