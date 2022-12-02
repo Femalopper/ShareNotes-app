@@ -20,6 +20,7 @@ Example of ready and fast solution:
 >  - MAMP: https://www.mamp.info/en/windows/
 >  - Open Server: https://ospanel.io/
 
+
 ***Open server SQL installation***
 
   1\. Click 'Run server' button
@@ -38,35 +39,37 @@ Example of ready and fast solution:
 
 Написать про настройки php
 
-  Database is created
+  Database is created!
+
 
   ***MAMP SQL installation***
-  1\. Click 'Start servers' button
-  ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start.png)
 
-  2\. Click 'Open WebStart page' button -> TOOLS -> PhpMyAdmin
-  ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start%20page.png)
-  ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20phpmyadmin.png)
+  >1\. Click 'Start servers' button
+  >>![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start.png)
 
-  3\. Click New
+  >2\. Click 'Open WebStart page' button -> TOOLS -> PhpMyAdmin
+  >>![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start%20page.png)
+  >>![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20phpmyadmin.png)
 
-  4\. Enter database name: reactjs
+  >3\. Click New
 
-  5\. Enter encoding: utf8mb4u_unicode_ci -> create
-  ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
+  >4\. Enter database name: reactjs
+
+  >5\. Enter encoding: utf8mb4u_unicode_ci -> create
+  >>![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
   
-  6\. Click import: choose reactjs.sql -> Go
-  ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
+  >6\. Click import: choose reactjs.sql -> Go
+  >>![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
 
-  Database is created
+  >>Database is created
 
-  8\. Open command line:
+  >8\. Open command line:
   ```sh
    cd backend_project/db
 
    code index.js
   ```
-  9\. Correct sequelize setting (insert password parametr - 'root'):
+  >9\. Correct sequelize setting (insert password parametr - 'root'):
   ```sh
    const sequelize = new Sequelize('reactjs', 'root', 'root', {
      dialect: 'mysql',
