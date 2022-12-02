@@ -1,6 +1,6 @@
 ## Setup
 
-1\. Clone project
+### 1\. Clone project ###
  
   ```sh
    git clone
@@ -12,7 +12,7 @@
    sudo npm link
   ```
 
-2\. Install SQL database
+### 2\. Install SQL database ###
 
 Example of ready and fast solution: 
 
@@ -35,16 +35,16 @@ Example of ready and fast solution:
 
   ***MAMP SQL installation***
   1\. Click 'Start servers' button
-  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp_start.png)
+  ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start.png)
   2\. Click 'Open WebStart page' button -> TOOLS -> PhpMyAdmin
-  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp_start_page.png)
-  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp_phpmyadmin.png)
+  ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start%20page.png)
+  ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20phpmyadmin.png)
   3\. Click New
   4\. Enter database name: reactjs
   5\. Enter encoding: utf8mb4u_unicode_ci -> create
-  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp_create_Database.png)
+  ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
   6\. Click import: choose reactjs.sql -> Go
-  ![Mamp start server](https://github.com/Femalopper/raw/master/images/Mamp_create_Database2.png)
+  ![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
 
   Database is created
 
@@ -62,7 +62,7 @@ Example of ready and fast solution:
    });
   ```
 
-3\. Run server
+### 3\. Run server ###
 
   ```sh
    cd backend_project
@@ -70,7 +70,7 @@ Example of ready and fast solution:
    node index.js
   ```
 
-4\. Run app
+### 4\. Run app ###
 
   ```sh
    cd frontend_project
