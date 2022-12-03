@@ -1,3 +1,15 @@
+## Description
+ShareNotes is an app for sharing encrypted messages between users. 
+
+## Implemented features
+-create encrypted in URL messages
+-open messages with encrypted URL
+-search messages by hash, read messages
+
+## Animation
+
+[Functionality](https://github.com/Femalopper/raw/blob/main/images/ShareNotes.gif)
+
 ## Setup
 
 ### 1\. Clone project ###
@@ -19,10 +31,8 @@
 Example of ready and fast solution: 
 
 > Download and install one of the program platforms: 
->  - MAMP: https://www.mamp.info/en/windows/
->  - Open Server: https://ospanel.io/
-
-***
+>  - MAMP(for macOS and Windows): https://www.mamp.info/en/windows/
+>  - Open Server(for Windows): https://ospanel.io/
 
   ### ***MAMP SQL installation*** ###
 
@@ -48,7 +58,7 @@ Example of ready and fast solution:
   >![Mamp create database](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
 
   
-  **6\.** Click ***import***: choose ***reactjs.sql*** -> ***Go***
+  **6\.** Click ***import***: choose ***reactjs.sql***(located in react-app-ShareNotes/backend_project folder) -> ***Go***
 
   >![Mamp create database2](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
 
@@ -77,11 +87,12 @@ Example of ready and fast solution:
 
 
   **2\.** Click ***Advanced*** button -> ***PhpMyAdmin***
+  
 
   >![OS phpadmin](https://github.com/Femalopper/raw/blob/main/images/OS%20phpmyadmin.png)
 
-
-  ***If PhpMyAdmin is not loaded in the browser, set MySQL-8.0 module:***
+  ***!!!Disable your antivirus and turn off browser extensions in case of authorization problems***
+  ***!!!If PhpMyAdmin is not loaded in the browser, set MySQL-8.0 module:***
 
   >![Correct modules](https://github.com/Femalopper/raw/blob/main/images/Correct%20modules.png)
 
@@ -101,12 +112,16 @@ Example of ready and fast solution:
   >![OS create database](https://github.com/Femalopper/raw/blob/main/images/OS%20create.png)
 
 
-  **7\.** Click import: choose ***reactjs.sql***
+  **7\.** Click import: choose ***reactjs.sql*** (located in react-app-ShareNotes/backend_project folder)
 
   >![OS create database2](https://github.com/Femalopper/raw/blob/main/images/OS%20create2.png)
 
 
   **Database is created!**
+
+  ```sh
+    Open react-app-ShareNotes/frontend_project/src/env.json to change backend server URL("http://localhost:3500")
+  ```
 ***
 ### 3\. Run server ###
 
@@ -124,5 +139,3 @@ Example of ready and fast solution:
    npm start
   ```
 ***
-## Description
-ShareNotes is an app for sharing encrypted messages. 
