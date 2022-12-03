@@ -5,11 +5,13 @@
   ```sh
    git clone git@github.com:Femalopper/react-app-ShareNotes.git
 
-   cd react-app-ShareNotes
+   cd react-app-ShareNotes/backend_project
 
    npm ci
 
-   sudo npm link
+   cd react-app-ShareNotes/frontend_project
+
+   npm ci
   ```
 ***
 ### 2\. Install SQL database ###
