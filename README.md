@@ -91,8 +91,6 @@ Example of ready and fast solution:
 
   >![OS phpadmin](https://github.com/Femalopper/raw/blob/main/images/OS%20phpmyadmin.png)
 
-  ***!!!Disable your antivirus and turn off browser extensions in case of authorization problems***
-
   ***!!!If PhpMyAdmin is not loaded in the browser, set MySQL-8.0 module:***
 
   >![Correct modules](https://github.com/Femalopper/raw/blob/main/images/Correct%20modules.png)
@@ -100,6 +98,8 @@ Example of ready and fast solution:
  
 
   **3\.** Enter login: ***root***
+
+  ***!!!Disable your antivirus and turn off browser extensions in case of authorization problems***
 
   >![OS login enter](https://github.com/Femalopper/raw/blob/main/images/OS%20enter.png)
 
@@ -120,8 +120,8 @@ Example of ready and fast solution:
 
   **Database is created!**
 
+  ### Note: ###
   ```sh
-    Note: 
     Open react-app-ShareNotes/frontend_project/src/env.json 
     to change backend server URL("http://localhost:3500")
   ```
