@@ -92,6 +92,7 @@ Example of ready and fast solution:
   >![OS phpadmin](https://github.com/Femalopper/raw/blob/main/images/OS%20phpmyadmin.png)
 
   ***!!!Disable your antivirus and turn off browser extensions in case of authorization problems***
+
   ***!!!If PhpMyAdmin is not loaded in the browser, set MySQL-8.0 module:***
 
   >![Correct modules](https://github.com/Femalopper/raw/blob/main/images/Correct%20modules.png)
@@ -120,7 +121,9 @@ Example of ready and fast solution:
   **Database is created!**
 
   ```sh
-    Open react-app-ShareNotes/frontend_project/src/env.json to change backend server URL("http://localhost:3500")
+    Note: 
+    Open react-app-ShareNotes/frontend_project/src/env.json 
+    to change backend server URL("http://localhost:3500")
   ```
 ***
 ### 3\. Run server ###
@@ -138,4 +141,4 @@ Example of ready and fast solution:
 
    npm start
   ```
-***
+
