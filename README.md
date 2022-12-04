@@ -8,7 +8,7 @@ ShareNotes is an app for sharing encrypted messages between users.
 
 ## Animation
 
-![Functionality](https://github.com/Femalopper/raw/blob/main/images/ShareNotes.gif)
+![Functionality](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/ShareNotes.gif)
 
 ## Setup
 
@@ -38,15 +38,15 @@ Example of ready and fast solution:
 
   **1\.** Click ***Start servers*** button
 
-  >![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start.png)
+  >![Mamp start server](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/Mamp%20start.png)
 
 
   **2\.** Click ***Open WebStart page*** button -> ***TOOLS*** -> ***PhpMyAdmin***
 
-  >![Mamp start page](https://github.com/Femalopper/raw/blob/main/images/Mamp%20start%20page.png)
+  >![Mamp start page](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/Mamp%20start%20page.png)
 
   
-  >![Mamp php admin](https://github.com/Femalopper/raw/blob/main/images/Mamp%20phpmyadmin.png)
+  >![Mamp php admin](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/Mamp%20phpmyadmin.png)
 
 
   **3\.** Click ***New*** to create Database
@@ -55,12 +55,12 @@ Example of ready and fast solution:
 
   **5\.** Enter encoding: ***utf8mb4u_unicode_ci*** -> create
 
-  >![Mamp create database](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database.png)
+  >![Mamp create database](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/Mamp%20create%20Database.png)
 
   
   **6\.** Click ***import***: choose ***reactjs.sql***(located in react-app-ShareNotes/backend_project folder) -> ***Go***
 
-  >![Mamp create database2](https://github.com/Femalopper/raw/blob/main/images/Mamp%20create%20Database2.png)
+  >![Mamp create database2](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/Mamp%20create%20Database2.png)
 
 
   **Database is created!**
@@ -71,7 +71,7 @@ Example of ready and fast solution:
 
    code index.js
   ```
-  **8\.** Correct sequelize setting (insert password parametr - ***'root'***):
+  **8\.** Correct sequelize setting (insert password parameter - ***'root'***):
   ```sh
    const sequelize = new Sequelize('reactjs', 'root', 'root', {
      dialect: 'mysql',
@@ -83,17 +83,17 @@ Example of ready and fast solution:
 
   **1\.** Click ***Run server*** button
 
-  >![OS run server](https://github.com/Femalopper/raw/blob/main/images/OS%20run%20server.png)
+  >![OS run server](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/OS%20run%20server.png)
 
 
   **2\.** Click ***Advanced*** button -> ***PhpMyAdmin***
   
 
-  >![OS phpadmin](https://github.com/Femalopper/raw/blob/main/images/OS%20phpmyadmin.png)
+  >![OS phpadmin](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/OS%20phpmyadmin.png)
 
   ***!!!If PhpMyAdmin is not loaded in the browser, set MySQL-8.0 module:***
 
-  >![Correct modules](https://github.com/Femalopper/raw/blob/main/images/Correct%20modules.png)
+  >![Correct modules](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/Correct%20modules.png)
 
  
 
@@ -101,7 +101,7 @@ Example of ready and fast solution:
 
   ***!!!Disable your antivirus and turn off browser extensions in case of authorization problems***
 
-  >![OS login enter](https://github.com/Femalopper/raw/blob/main/images/OS%20enter.png)
+  >![OS login enter](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/OS%20enter.png)
 
 
   **4\.** Click create Database
@@ -110,12 +110,12 @@ Example of ready and fast solution:
 
   **6\.** Enter encoding: ***utf8mb4u_unicode_ci*** -> create
 
-  >![OS create database](https://github.com/Femalopper/raw/blob/main/images/OS%20create.png)
+  >![OS create database](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/OS%20create.png)
 
 
   **7\.** Click import: choose ***reactjs.sql*** (located in react-app-ShareNotes/backend_project folder)
 
-  >![OS create database2](https://github.com/Femalopper/raw/blob/main/images/OS%20create2.png)
+  >![OS create database2](https://github.com/Femalopper/raw/blob/main/images/react-app-ShareNotes/OS%20create2.png)
 
 
   **Database is created!**
