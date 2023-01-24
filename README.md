@@ -15,13 +15,13 @@ ShareNotes is an app for sharing encrypted messages between users.
 ### 1\. Clone project ###
  
   ```sh
-   git clone git@github.com:Femalopper/react-app-ShareNotes.git
+   git clone git@github.com:Femalopper/share-notes-app.git
 
-   cd react-app-ShareNotes/backend_project
+   cd share-notes-app/backend_project
 
    npm ci
 
-   cd react-app-ShareNotes/frontend_project
+   cd share-notes-app/frontend_project
 
    npm ci
   ```
@@ -126,7 +126,8 @@ Example of ready and fast solution:
     to change backend server URL("http://localhost:3500")
   ```
 ***
-### 3\. Run server ###
+### 3\. Open two terminals ###
+### 4\. Run server (in the first terminal) ###
 
   ```sh
    cd backend_project
@@ -134,7 +135,7 @@ Example of ready and fast solution:
    node index.js
   ```
 ***
-### 4\. Run app ###
+### 5\. Run app (in the second terminal) ###
 
   ```sh
    cd frontend_project

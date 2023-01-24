@@ -7,7 +7,7 @@ const Note = () => {
   let { noteURL } = useParams();
   const [noteText, setNoteText] = useState('');
   const [lineClass, setLineClass] = useState('hide');
-  const [formClass, setFormClass] = useState('');
+  const [formClass, setFormClass] = useState('hide');
   const [buttonHide, setButtonHide] = useState('hide');
   const [errorClass, setErrorClass] = useState('hide');
   const urlRef = React.createRef();
