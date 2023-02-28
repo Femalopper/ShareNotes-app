@@ -4,8 +4,6 @@ on:
   push:
     paths-ignore:
       - 'backend_project/**'
-    paths:
-      - 'frontend_project/**'
 
 jobs:
   check-bats-version:
