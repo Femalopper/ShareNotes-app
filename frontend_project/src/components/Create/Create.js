@@ -6,20 +6,20 @@ import classNames from 'classnames';
 
 const Create = () => {
   const [url, setURL] = useState('');
-  const [line, setLine] = useState(true);
-  const [form, setForm] = useState(false);
+  const [line, setHideLine] = useState(true);
+  const [form, setHideForm] = useState(false);
   const textRef = React.createRef();
 
   const hideSwitcher = () => {
-    setForm(false);
-    setLine(true);
+    setHideForm(false);
+    setHideLine(true);
     setURL('');
     textRef.current.value = 'Test';
   };
 
   const sendData = (obj) => {
-    setForm(true);
-    setLine(false);
+    setHideForm(true);
+    setHideLine(false);
 
     fetch(env.urlBackend, {
       method: 'POST',

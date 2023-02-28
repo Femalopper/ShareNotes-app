@@ -2,18 +2,18 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import env from '../../env.json';
 import './Note.css';
+import classNames from 'classnames';
 
 const Note = () => {
   let { noteURL } = useParams();
   const [noteText, setNoteText] = useState('');
-  const [lineClass, setLineClass] = useState('hide');
-  const [formClass, setFormClass] = useState('hide');
-  const [buttonHide, setButtonHide] = useState('hide');
-  const [errorClass, setErrorClass] = useState('hide');
+  const [line, setLineHide] = useState(true);
+  const [form, setFormHide] = useState(true);
+  const [buttonHide, setButtonHide] = useState(true);
+  const [error, setErrorHide] = useState(true);
   const urlRef = React.createRef();
 
   useEffect(() => {
-    console.log('effect');
     if (noteURL !== undefined) {
       fetch(env.urlBackend, {
         method: 'POST',
@@ -24,25 +24,24 @@ const Note = () => {
       })
         .then((response) => response.json())
         .then((response) => {
-          console.log(response);
           if (response.result) {
             setNoteText(response.note);
-            setLineClass('');
-            setFormClass('hide');
-            setErrorClass('hide');
-            setButtonHide('hide');
+            setLineHide(false);
+            setFormHide(true);
+            setErrorHide(true);
+            setButtonHide(true);
           } else {
-            setLineClass('hide');
-            setFormClass('hide');
-            setErrorClass('');
-            setButtonHide('');
+            setLineHide(true);
+            setFormHide(true);
+            setErrorHide(false);
+            setButtonHide(false);
           }
         });
     } else {
-      setLineClass('hide');
-      setFormClass('');
-      setErrorClass('hide');
-      setButtonHide('hide');
+      setLineHide(true);
+      setFormHide(false);
+      setErrorHide(true);
+      setButtonHide(true);
     }
   }, [noteURL]);
 
@@ -61,12 +60,9 @@ const Note = () => {
     window.location.href = env.url;
   };
 
-  const classForError = `${errorClass} form-control alert alert-danger`;
-
   return (
     <div className="create">
-      {console.log('render')}
-      <div className={lineClass}>
+      <div className={classNames({ hide: line })}>
         <div className="note-message">
           <h4>Note: {noteURL}</h4>
           <div className="note-text">{noteText}</div>
@@ -78,13 +74,15 @@ const Note = () => {
           </button>
         </div>
       </div>
-      <div className={classForError}>Произошла ошибка. Такой Note не найден.</div>
-      <div className={buttonHide}>
+      <div className={classNames({ hide: error }, 'form-control', 'alert', 'alert-danger')}>
+        Произошла ошибка. Такой Note не найден.
+      </div>
+      <div className={classNames({ hide: buttonHide })}>
         <button onClick={searchNote} className="btn btn-primary">
           Искать другой Note
         </button>
       </div>
-      <div className={formClass}>
+      <div className={classNames({ hide: form })}>
         <form onSubmit={getNote}>
           <label htmlFor="">Введите hash заметки</label>
           <input id="note" className="form-control alert alert-primary" ref={urlRef}></input>
