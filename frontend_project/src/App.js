@@ -1,3 +1,4 @@
+import React from 'react';
 import About from './components/About/About';
 import Create from './components/Create/Create';
 import Error from './components/Error/Error';
