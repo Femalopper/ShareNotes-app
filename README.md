@@ -1,4 +1,5 @@
 [![Actions Status](https://github.com/Femalopper/share-notes-app/workflows/eslint-check/badge.svg?branch=main)](https://github.com/Femalopper/share-notes-app/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/7a10118d7292a7082434/maintainability)](https://codeclimate.com/github/Femalopper/share-notes-app/maintainability)
 
 ## Description
 ShareNotes is an app for sharing encrypted messages between users. 
