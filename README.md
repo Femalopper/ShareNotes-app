@@ -5,9 +5,9 @@
 ShareNotes is an app for sharing encrypted messages between users. 
 
 ## Implemented features
-- [:heavy_check_mark:] create encrypted in URL messages
-- [:heavy_check_mark:] open messages with encrypted URL
-- [:heavy_check_mark:] search messages by hash, read messages
+- [x] create encrypted in URL messages
+- [x] open messages with encrypted URL
+- [x] search messages by hash, read messages
 
 ## Animation
 
