@@ -59,8 +59,10 @@ const Create = () => {
         </button>
       </form>
       <div className={lineClass}>
-        <div className="link form-control">{url}</div>
-        <div className="copyurl">Скопируйте URL и передайте адресату. Внимание! Посмотреть заметку можно один раз!</div>
+        <div className="link form-control alert alert-primary">{url}</div>
+        <div className="copyurl">
+          Скопируйте URL и передайте адресату. Внимание! Посмотреть заметку можно один раз!
+        </div>
         <div>
           <button onClick={hideSwitcher} className="btn btn-primary">
             Создать еще Note

@@ -61,7 +61,7 @@ const Note = () => {
     window.location.href = env.url;
   };
 
-  const classForError = `${errorClass} form-control error-hash`;
+  const classForError = `${errorClass} form-control alert alert-danger`;
 
   return (
     <div className="create">
@@ -87,7 +87,7 @@ const Note = () => {
       <div className={formClass}>
         <form onSubmit={getNote}>
           <label htmlFor="">Введите hash заметки</label>
-          <input id="note" className="form-control" ref={urlRef}></input>
+          <input id="note" className="form-control alert alert-primary" ref={urlRef}></input>
           <button type="submit" className="btn btn-primary">
             Искать Note
           </button>
