@@ -1,6 +1,9 @@
 name: eslint-check
 
-on: push
+on: 
+  push:
+    paths:
+      - 'frontend_project/**'
 
 jobs:
   check-bats-version:
@@ -11,5 +14,4 @@ jobs:
         with:
           node-version: '16.14.2'
       - run: npm ci
-      - run: cd frontend_project
       - run: npm run lint
