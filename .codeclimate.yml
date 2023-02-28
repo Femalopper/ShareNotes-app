@@ -1,4 +1,6 @@
 version: "2"         # required to adjust maintainability checks
+exclude_patterns:
+- "backend_project/"
 checks:
   argument-count:
     config:
