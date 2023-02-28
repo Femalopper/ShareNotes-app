@@ -11,4 +11,5 @@ jobs:
         with:
           node-version: '16.14.2'
       - run: npm ci
+      - run: cd frontend_project
       - run: npm run lint
