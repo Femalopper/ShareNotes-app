@@ -1,4 +1,4 @@
-![Actions Status](https://github.com/Femalopper/share-notes-app/actions/workflows/eslint-check.yml/badge.svg)
+[![Actions Status](https://github.com/Femalopper/share-notes-app/workflows/eslint-check/badge.svg?branch=main)](https://github.com/Femalopper/share-notes-app/actions)
 
 ## Description
 ShareNotes is an app for sharing encrypted messages between users. 
