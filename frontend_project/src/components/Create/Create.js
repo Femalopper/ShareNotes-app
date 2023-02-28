@@ -2,23 +2,24 @@ import { useState } from 'react';
 import env from '../../env.json';
 import React from 'react';
 import './Create.css';
+import classNames from 'classnames';
 
 const Create = () => {
   const [url, setURL] = useState('');
-  const [lineClass, setLineClass] = useState('hide');
-  const [formClass, setFormClass] = useState('');
+  const [line, setLine] = useState(true);
+  const [form, setForm] = useState(false);
   const textRef = React.createRef();
 
   const hideSwitcher = () => {
-    setFormClass('');
-    setLineClass('hide');
+    setForm(false);
+    setLine(true);
     setURL('');
     textRef.current.value = 'Test';
   };
 
   const sendData = (obj) => {
-    setFormClass('hide');
-    setLineClass('');
+    setForm(true);
+    setLine(false);
 
     fetch(env.urlBackend, {
       method: 'POST',
@@ -29,7 +30,6 @@ const Create = () => {
     })
       .then((response) => response.json())
       .then((response) => {
-        console.log(response);
         if (response.result) {
           setURL(env.url + '/' + response.url);
         }
@@ -48,7 +48,7 @@ const Create = () => {
 
   return (
     <div className="create">
-      <form onSubmit={loadDataFromForm} className={formClass}>
+      <form onSubmit={loadDataFromForm} className={classNames({ hide: form })}>
         <label htmlFor="">Введите заметку</label>
         <textarea id="note" defaultValue="Test" ref={textRef} maxLength="1000"></textarea>
         <div>
@@ -58,7 +58,7 @@ const Create = () => {
           Создать
         </button>
       </form>
-      <div className={lineClass}>
+      <div className={classNames({ hide: line })}>
         <div className="link form-control alert alert-primary">{url}</div>
         <div className="copyurl">
           Скопируйте URL и передайте адресату. Внимание! Посмотреть заметку можно один раз!
